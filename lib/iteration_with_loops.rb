@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(array)
     temporary_min = 10000
     while min_temprature < array[row_index].count do
       if array[row_index][min_temprature] < temporary_min
-      	temporary_min = min_temprature
+      	temporary_min = row_index
       end
             min_temprature += 1 
     end
