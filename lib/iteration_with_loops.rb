@@ -9,13 +9,7 @@ def find_min_in_nested_arrays(array)
     temporary_min = 
     while min_temprature < array[row_index].count do
       if array[row_index][min_temprature] < temporary_min
-      Failures:
-
-  1) Write a method called "find_min_in_nested_arrays" that takes in argument of an Array of Arrays containing sets of numbers returns the smallest numbers from each set in a new Array
-     Failure/Error: if array[row_index][min_temprature] < temporary_min
-
-     ArgumentError:
-       comparison of Integer with nil failed
+  
       	temporary_min
       end
             min_temprature += 1 
