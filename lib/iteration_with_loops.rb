@@ -8,7 +8,7 @@ def find_min_in_nested_arrays(array)
     min_temprature = 0 
     temporary_min = 
     while min_temprature < array[row_index].count do
-      if array[row_index][min_temprature] < temporary_min
+      
       if temporary_min == nil || array[row_index][min_temprature] < temporary_min
       	temporary_min
       end
